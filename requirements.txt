@@ -1,0 +1,21 @@
+# --- Core and AI ---
+torch==2.6.0
+torchaudio==2.6.0
+openai-whisper
+transformers
+sentencepiece
+gTTS
+
+# --- Audio Processing ---
+pyaudio
+webrtcvad-wheels
+numpy
+
+# --- Utilities ---
+loguru
+pydantic
+pydantic-settings
+
+# Note: The PyTorch version is specified here. The --index-url part
+# needs to be added manually during installation for CUDA support.
+# See README for details.
